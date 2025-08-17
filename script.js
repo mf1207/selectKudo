@@ -1,8 +1,8 @@
 const TOTAL_ROUNDS = 2;
 const IMAGE_LIST = [
-  { src: "images/a/a1.jpg", type: "A" },
-  { src: "images/a/a2.jpg", type: "A" },
-  { src: "images/a/a3.jpg", type: "A" },
+  { src: "images/a/a1.jpg", type: "B" },
+  { src: "images/a/a2.jpg", type: "B" },
+  { src: "images/a/a3.jpg", type: "B" },
   { src: "images/a/a4.jpg", type: "A" },
   { src: "images/a/a5.jpg", type: "A" },
   { src: "images/a/a6.jpg", type: "A" },
