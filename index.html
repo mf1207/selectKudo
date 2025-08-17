@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Captcha Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <header>
+      <h1>Select all images with Kudo Shinichi</h1>
+    </header>
+
+    <section id="round">
+      <div id="progress"><span id="progress-text">1 / 3</span></div>
+      <div id="image-grid" class="grid" aria-live="polite"></div>
+      <div class="actions">
+        <button id="submit-btn" class="primary">VERIFY</button>
+        <button id="reshuffle-btn" class="ghost">Shuffle Again</button>
+      </div>
+    </section>
+
+    <section id="result-screen" class="hidden" aria-live="polite">
+      <h2 id="result-text">RESULT</h2>
+      <p id="result-detail"></p>
+      <button id="restart-btn" class="primary">Try Again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
