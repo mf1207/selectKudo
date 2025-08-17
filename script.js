@@ -112,7 +112,7 @@ function showResult() {
 
   if (correctCount === TOTAL_ROUNDS) {
     resultText.textContent = "✅ Success!";
-    resultDetail.textContent = "";
+    resultDetail.textContent = `${correctCount} / ${TOTAL_ROUNDS}`;
   } else {
     resultText.textContent = "❌ Fail";
     resultDetail.textContent = `${correctCount} / ${TOTAL_ROUNDS}`;
