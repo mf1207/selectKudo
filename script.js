@@ -111,9 +111,10 @@ function showResult() {
   resultScreen.classList.remove("hidden");
 
   if (correctCount === TOTAL_ROUNDS) {
-    resultText.textContent = `✅ Success!  (${correctCount} / ${TOTAL_ROUNDS})`;
+    resultText.textContent = "✅ Success!";
   } else {
-    resultText.textContent = `❌ Fail  (${correctCount} / ${TOTAL_ROUNDS})`; 
+    resultText.textContent = "❌ Fail";
+    // resultDetail.textContent = `${correctCount} / ${TOTAL_ROUNDS}`;
   }
 }
 
